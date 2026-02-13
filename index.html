@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Day Itinerary</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0E0B5ff; /* Vanilla Custard */
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/church.png');
+  }
+
+  /* Timeline styles */
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+  }
+
+/* SCSS HEX
+$bright-snow: #FAF8F6ff;
+$vanilla-custard: #E0E0B5ff;
+$bright-snow-2: #FBF9F8ff;
+$dusty-olive: #778753ff;
+$dusty-olive-2: #707E40ff; */
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #778753ff;
+    border-radius: 2px;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -34px;
+    top: 15px;
+    width: 16px;
+    height: 16px;
+    background: #778753ff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+
+  .time {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #778753ff;
+  }
+
+  .activity {
+    color: #333;
+  }
+</style>
+</head>
+<body class="bg-light p-3">
+
+<div class="container">
+<h2 class="mb-3 text-center pt-4"
+    style="
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      color: #102e0e;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.12);
+    ">
+  Happy Valentine's Day, Kyla!
+</h2>
+
+<p class="text-center pb-3">When I do things for you, it’s not to make you like me. it’s to show you that I really love you.</p>
+
+
+  <div class="row g-4">
+    <!-- Timeline first -->
+    <div class="col-lg-8">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="time">7:00 AM</div>
+          <div class="activity">Meetup at <a href="https://www.google.com/maps/place/Motorway+Tarlac+City/@15.482327,120.590634,17z/data=!3m1!4b1!4m5!3m4!1s0x3391f8c8c7c0c0c1:0x8f8e8e8e8e8e8e8e!8m2!3d15.482327!4d120.590634" style="text-decoration: none; color: #333;"> <strong>Motorway Tarlac city</strong></a></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">8:00 AM</div>
+          <div class="activity">Estimated Time of Arrival at <strong>St. Nicholas of Tolentine Cathedral, Cabanatuan City</strong></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">8:30 AM</div>
+          <div class="activity">Late Breakfast</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">9:00AM</div>
+          <div class="activity">Catching Up</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">11:00AM</div>
+          <div class="activity">Go to City Proper and Eat Lunch</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">3:00 PM</div>
+          <div class="activity">Return to Tarlac</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Notes second -->
+    <div class="col-lg-4">
+      <div class="p-3 bg-white rounded shadow-sm mb-4">
+        <h6><b>Important Notes:</b></h6>
+        <ul class="mb-0">
+          <li>Travel time is approximately 1 Hour. Expect Delays.</li>
+          <li>Please hold on to me while we’re riding the motorcycle.</li>
+          <li>Wear any comfortable clothes and shoes for walking. (I'll be wearing a black T-shirt and Denim Pants)</li>
+        </ul>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d5137.442479368463!2d120.94715865027901!3d15.453648791933578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e9!4m5!1s0x3396c7a577307727%3A0xd1f3a76cbc6b01b0!2sFHPV%2B8Q7%20Enzo&#39;s%20House%2C%20Tarlac%20City%2C%20Tarlac%2C%20Philippines!3m2!1d15.4858031!2d120.5944368!4m3!3m2!1d15.4519401!2d120.9529652!5e1!3m2!1sen!2sph!4v1770942772422!5m2!1sen!2sph" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Gallery -->
+     <div class="col">
+
+     </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional for responsive features) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
